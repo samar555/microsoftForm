@@ -1,8 +1,3 @@
-.container {
-    background-color: aliceblue;
-    width: 50%;
-    display: block;
-}
 .rating {
 
     position: absolute;
@@ -11,7 +6,6 @@
     margin: auto;
     width: 50%;
    display: flex;
-   flex-wrap: wrap;
   /* transform: rotate(90deg); */
     transform: translate(-50%, -50%) rotateY(180deg);
 }
@@ -55,23 +49,4 @@
 .rating label:hover:after,.rating input:checked~label:after
  {
     opacity: 1;
-}
-
-@media screen and (max-width: 572px){
-    .container{
-        width: 100%;
-    }  
-    .rating{
-        width:142%;
-    } 
-}
-@media screen and (max-width: 916px){
- .rating{
-     width: 74%;
- }
-}
-@media screen and (max-width: 572px){
-    .rating{
-        width:142%;
-    }
 }

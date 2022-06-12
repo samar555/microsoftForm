@@ -1,0 +1,18 @@
+p{
+    
+    background-color: rgb(133, 238, 203);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    
+}
+div{
+    
+opacity: 0.7;
+}
+@media screen and (max-width: 572px){
+    p{ 
+        width:100%;
+    }
+ }

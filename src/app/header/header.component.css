@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+   
+    background-color: darkblue;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+   
+    padding: 10px;
+    margin-top: 68px;
+}
+ img{
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+}
+@media screen and (max-width: 572px){
+    .heading{ width: 100%;
+        margin-top: 0px;
+    }
+    
+ }
